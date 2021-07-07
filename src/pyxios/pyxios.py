@@ -33,8 +33,6 @@ class Pyxios:
     def _dict_attributes(self):
         return [
             'params',
-            'data',
-            'json',
             'headers',
             'cookies',
             'headers',
