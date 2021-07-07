@@ -70,8 +70,6 @@ class Pyxios:
         url = self._make_url(url)
         kwargs = self._populate_default_kwargs(**kwargs)
 
-        print(kwargs)
-
         return requests.request(url=url, method=method, **kwargs)
 
     def _make_url(self, url: str) -> str:

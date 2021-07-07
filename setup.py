@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='pyxios',
-    version="1.0.0",
+    version="1.0.2",
     author="Bruno Santos",
     author_email="b.g.santos@outlook.com",
     long_description=long_description,
